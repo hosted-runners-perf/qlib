@@ -8,8 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-2019, ubuntu-20.04, macos-11]
-        # not supporting 3.6 due to annotations is not supported https://stackoverflow.com/a/52890129
+        os: [ubuntu-20.04]
         python-version: [3.8]
 
     steps:
